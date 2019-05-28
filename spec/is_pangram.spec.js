@@ -73,9 +73,6 @@ describe('isPangram()', () => {
   test('uppercase', () => {
     let text = 'the QUICK brown fox jumps over the lazy dog';
 
-    
-
-
     const result = isPangram(text);
 
     expect(result).toBe(true);
